@@ -1,0 +1,164 @@
+body {
+	
+  font-family: 'Chewy', cursive;
+  background-image: url("../images/Donut-Background.png");
+max-width:900px;
+}
+
+
+
+
+.messages{
+background-color:#8714E8;
+	 position: absolute;
+width:100px;
+top:800px;
+color:#CC3399;
+text-align:center;
+}
+.sugestions{
+background-color:#8714E8;
+	 position: absolute;
+width:100px;
+top:900px;
+color:#CC3399;
+text-align:center;
+}
+
+.social{
+	background-color:#D2E3E8;
+	opacity: 0.8;
+    filter: alpha(opacity=10);
+	 position: absolute;
+width:180px;
+top:230px;
+color:#CC3399;
+text-align:center; 
+z-index: -1;
+}
+.social img{
+
+width: 50px;
+  height: 50px;
+
+}
+.social a{
+
+	color:#CC3399;
+	text-decoration:none ;
+	display:block;
+float:left;
+padding:30px;
+padding-bottom:50px; 
+padding-top: 20px;
+
+
+}
+
+
+.social a:hover{
+
+	color:#CC3399;
+	text-decoration:none ;
+}
+
+.social a:visited{
+
+	color:#CC3399;
+	text-decoration:none ;
+}
+
+.navbar img{
+
+
+width: 200px;
+  height: 80px;
+
+}
+.navbar{
+
+right:6000px ;
+
+}
+
+.underbar{
+	position: relative; overflow: auto;
+background-color:#8714E8;
+ color:#ffffff; 
+font-size:10px ;
+width:880px ;
+top:0px ;
+z-index: -1;
+}
+
+.slider img{
+width: 700px;
+  height: 440px;
+
+}
+.slider { 
+	background-color:WHITE;
+	
+	position: relative; overflow: auto;
+
+
+   width: 700px;
+    top: 60px;
+    left: 180px;
+    z-index: -1;
+ height:0px;
+ }
+    .slider li { list-style: none; }
+        .slider ul li { float: right; }
+
+ul.menu {
+ float:left;
+ display:block;
+ margin-top: 38px;
+ list-style-type:none;
+ }
+ .menu li {
+ line-height:18px;
+ font-size:13px;
+ position:relative;
+ float:right;
+ }
+ .menu li a {
+ color: #000;
+ text-transform:uppercase;
+ padding: 10px 20px;
+ text-decoration:none;
+ }
+ .menu li a:hover {
+ background: #8714E8;
+ color: white;
+ }
+ .menu li ul {
+ display:none;
+ position:absolute;
+ top:20px;
+ width: 240px;
+ background-color: #FFE942;
+ padding:0;
+ list-style-type:none;
+ }
+ .menu li ul li {
+ width: 200px;
+ border: 0px;
+ border-top:none;
+ padding: 10px 20px;
+ }
+ .menu li ul li:first-child {
+ border-top: 1px solid #FFE942;
+ }
+.menu li ul li a {
+ width: 240px;
+ margin: 0;
+ padding:0;
+ }
+.menu li ul li a:hover {
+ width: 240px;
+ margin: 0;
+ color: #8714E8;
+ background:none;
+ }
