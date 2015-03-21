@@ -1,8 +1,9 @@
-body {
-	
-  font-family: 'Chewy', cursive;
-  background-image: url("../images/Donut-Background.png");
-max-width:900px;
+body 
+{	
+  	font-family: 'Chewy', cursive;
+  	background-image: url("../images/Donut-Background.png");
+	width: 900px;
+	margin: 0 auto;
 }
 
 
